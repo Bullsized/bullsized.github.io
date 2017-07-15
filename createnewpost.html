@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+    <link type="text/css" rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Let's Go Back To The Rocket~</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="indexlogged.html">Word Up, Man</a></li>
+                        <li><a href="createnewpost.html">Post It</a></li>
+                        <li><a href="index.html">Beat It</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  <main>
+      <div class="container body-content span=8 offset=2">
+          <form class="form-horizontal">
+              <fieldset>
+                  <legend>Time To Get Creative</legend>
+                  <div class="form-group">
+                      <label class="col-sm-4 control-label">What is the Title</label>
+                      <div class="col-sm-4">
+                          <input type="text" class="form-control" id="postTitle" placeholder="Name of The Post">
+                      </div>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="col-sm-4 control-label">Who Wrote It</label>
+                      <div class="col-sm-4">
+                          <input type="text" class="form-control" id="postTitle" placeholder="Author of The Post">
+                      </div>
+                  </div>
+
+                  <div class="form-group">
+                      <label class="col-sm-4 control-label">What He Wrote</label>
+                      <div class="col-sm-6">
+                      <textarea class="form-control" rows="5" id="postContent">Start Typing!</textarea>
+                      </div>
+                  </div>
+
+                  <div class="form-group">
+                      <div class="col-sm-4 col-sm-offset-4">
+                          <a href="index.html" button type="reset" class="btn btn-default">No No No</a>
+                          <button type="reset" class="btn btn-primary">Go Go Go</button>
+
+                      </div>
+                  </div>
+              </fieldset>
+          </form>
+      </div>
+  </main>
+
+    <footer>
+        <div class="container modal-footer">
+            <p>&copy; 2017 - IMDb & <a href="http://www.imdb.com/name/nm0000500/?ref_=tt_ov_dr">Richard Linklater</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
