@@ -1,2 +1,2 @@
 # bullsized.github.io
-First attempt at HTML blogging with jQuery &amp; Boostrap
+First attempt at HTML using jQuery &amp; Boostrap
